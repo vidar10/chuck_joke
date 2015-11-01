@@ -51,7 +51,7 @@ public class ChuckWebTest {
     @Test
     public void assertTitle() {
         driver.get(baseUrl + "/");
-        assertEquals("Chuck Norris Jokes", driver.getTitle());
+        assertEquals("Chuck Norris Jokes ", driver.getTitle());
     }
 
     @Test
